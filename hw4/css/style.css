@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+body {
+    background: url(../images/vine.png) no-repeat right top #FFFAF3;
+}
+
+.container header a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+nav {
+    vertical-align: middle;
+    display: inline-block;
+    width: 300px;
+    margin-left: 83px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+.activ {
+    color: #C08D5D;
+}
+
+a {
+    color: #000000;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.text {
+    border-bottom: 1px #C08D5D solid;
+    width: 470px;
+    padding-bottom: 42px;
+    padding-top: 43px;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-top: 121px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+h1 span {
+    display: block;
+    text-transform: none;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    /* identical to box height */
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+h1 span::after {
+    content: url("../images/list.png");
+    vertical-align: bottom;
+}
+
+h1::after {
+    content: url(../images/vector.svg);
+    padding-left: 8px;
+    display: block;
+    width: 165px;
+    color: #3F4042;
+    padding-top: 45px;
+}
+
+p {
+    width: 535px;
+    padding-top: 26px;
+    padding-bottom: 89px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.6%;
+    /* or 27px */
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+.move-to {
+    width: 138px;
+    height: 64px;
+    background: #FFFAF3;
+    border: 2px solid #C08D5D;
+    text-decoration: none;
+    padding: 17px 11px 17px 15px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 147.6%;
+    /* identical to box height, or 30px */
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+.move-to::after {
+    content: url(/images/vector2.svg);
+    display: inline-block;
+    color: #C08D5D;
+    width: 17px;
+    height: 65px;
+    border: 2px solid #FFFFFF;
+}
+
+footer .mouse {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 62px;
+}
